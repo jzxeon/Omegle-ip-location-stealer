@@ -1,7 +1,13 @@
-// Script made by jz_xeon
+// Omegle ip-location logger
+
+// Script made by jzxeon
+
 // omegle logger location java script
+
 // do not use this script for bad means such as "doxing people, scaring, blackmail, or other treats of crimal activity" jz_xeon is not liably to any damages caused by the user using this script, here by the user agrees sole responsibility falls on them to be moral whilist using this script
+
 // the API key allowing to know the location of someone thanks to an IP : https://ipgeolocation.io
+
 let keyapi = "8d3373cc74884e1d8cf43a792b1da3b5";
 
 window.oRTCPeerConnection =
@@ -41,7 +47,7 @@ Postal Code: ${json.postal_code}
 Internet Provider: ${json.isp}
 Lat / Long: (${json.latitude}, ${json.longitude})
 -------------------------------
-
+Snatched their info ;)
           `;
       console.log(output);
     })
